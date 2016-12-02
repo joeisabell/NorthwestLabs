@@ -1,0 +1,170 @@
+﻿
+@{
+    ViewBag.Title = "View";
+    Layout = "~/Views/Shared/_DashLayout.cshtml";
+}
+
+        <!-- page content -->
+<div class="right_col" role="main">
+    <div class="">
+        <div class="row top_tiles">
+            <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="tile-stats">
+                    <div class="icon"><i class="fa fa-check-square-o"></i></div>
+                    <div class="count">5</div>
+                    <h3>New Completed Tests</h3>
+                    <p>Tests completed in the last week.</p>
+                </div>
+            </div>
+            <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="tile-stats">
+                    <div class="icon"><i class="fa fa-question-circle-o"></i></div>
+                    <div class="count">2</div>
+                    <h3>Tests Pending Approval</h3>
+                    <p>Are you interested in these additional tests?</p>
+                </div>
+            </div>
+            <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="tile-stats">
+                    <div class="icon"><i class="fa fa-hourglass-end"></i></div>
+                    <div class="count">10</div>
+                    <h3>Tests In-Progress</h3>
+                    <p>Your results will be available soon.</p>
+                </div>
+            </div>
+            <div class="animated flipInY col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="tile-stats">
+                    <div class="icon"><i class="fa fa-file"></i></div>
+                    <div class="count">1</div>
+                    <h3>Open Invoices</h3>
+                    <p>3% Discount on Early Payments.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="x_panel">
+                    <div class="x_title">
+                        <h2>Work Order Summary <small>Weekly progress</small></h2>
+                        <div class="filter">
+                            <div id="reportrange" class="pull-right" style="background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #ccc">
+                                <i class="glyphicon glyphicon-calendar fa fa-calendar"></i>
+                                <span>December 30, 2014 - January 28, 2015</span> <b class="caret"></b>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="x_content">
+                        <div class="col-md-9 col-sm-12 col-xs-12">
+                            <div class="demo-container" style="height:280px">
+                                <div id="placeholder33x" class="demo-placeholder"></div>
+                            </div>
+                            <div class="tiles">
+                                <div class="col-md-4 tile">
+                                    <span>PF Analysis</span>
+                                    <h2>23.045</h2>
+                                    <span class="sparkline11 graph" style="height: 160px;">
+                                        <canvas width="200" height="60" style="display: inline-block; vertical-align: top; width: 94px; height: 30px;"></canvas>
+                                    </span>
+                                </div>
+                                <div class="col-md-4 tile">
+                                    <span>Completed Assays</span>
+                                    <h2>4,738</h2>
+                                    <span class="sparkline22 graph" style="height: 160px;">
+                                        <canvas width="200" height="60" style="display: inline-block; vertical-align: top; width: 94px; height: 30px;"></canvas>
+                                    </span>
+                                </div>
+                                <div class="col-md-4 tile">
+                                    <span>Industry Trends</span>
+                                    <h2>231,809</h2>
+                                    <span class="sparkline11 graph" style="height: 160px;">
+                                        <canvas width="200" height="60" style="display: inline-block; vertical-align: top; width: 94px; height: 30px;"></canvas>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-12 col-xs-12">
+                            <div>
+                                <div class="x_title">
+                                    <h2>Work Orders</h2>
+                                    <ul class="nav navbar-right panel_toolbox">
+                                        <li>
+                                            <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li>
+                                                    <a href="#">Settings 1</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Settings 2</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a class="close-link"><i class="fa fa-close"></i></a>
+                                        </li>
+                                    </ul>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <ul class="list-unstyled top_profiles scroll-view">
+                                    <li class="media event">
+                                        <a class="pull-left border-aero profile_thumb">
+                                            <i class="fa fa-calendar aero"></i>
+                                        </a>
+                                        <div class="media-body">
+                                            <a class="title" href="#">LT #172926 </a>
+                                            <p><strong>Assay: </strong> BP </p>
+                                            <p>
+                                                <small>Est Compl: Dec 20, 2016</small>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="media event">
+                                        <a class="pull-left border-green profile_thumb">
+                                            <i class="fa fa-calendar green"></i>
+                                        </a>
+                                        <div class="media-body">
+                                            <a class="title" href="#">LT #284838</a>
+                                            <p><strong>Assay: </strong> DS </p>
+                                            <p>
+                                                <small>Est Compl: Jan 1, 2017</small>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="media event">
+                                        <a class="pull-left border-blue profile_thumb">
+                                            <i class="fa fa-calendar blue"></i>
+                                        </a>
+                                        <div class="media-body">
+                                            <a class="title" href="#">LT #172926</a>
+                                            <p><strong>Assay: </strong> IS </p>
+                                            <p>
+                                                <small>Est Compl: Dec 3, 2016</small>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li class="media event">
+                                        <a class="pull-left border-aero profile_thumb">
+                                            <i class="fa fa-calendar aero"></i>
+                                        </a>
+                                        <div class="media-body">
+                                            <a class="title" href="#">LT #928272</a>
+                                            <p><strong>Assay: </strong> PS </p>
+                                            <p>
+                                                <small>Est Compl: Nov 1, 2016</small>
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /page content -->
+

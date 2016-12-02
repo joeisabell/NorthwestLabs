@@ -1,0 +1,213 @@
+﻿
+@{
+    ViewBag.Title = "PayInvoice";
+    Layout = "~/Views/Shared/_DashLayout.cshtml";
+}
+
+ <!-- page content -->
+<div class="right_col" role="main">
+    <div class="">
+        <div class="page-title">
+            <div class="title_left">
+                <h3>Invoice <small></small></h3>
+            </div>
+
+            <div class="title_right">
+                <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search for...">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button">Go!</button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="x_panel">
+                    <div class="x_title">
+                        <h2>Invoice Design <small>Sample user invoice design</small></h2>
+                        <ul class="nav navbar-right panel_toolbox">
+                            <li>
+                                <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li>
+                                        <a href="#">Settings 1</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Settings 2</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="close-link"><i class="fa fa-close"></i></a>
+                            </li>
+                        </ul>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="x_content">
+
+                        <section class="content invoice">
+                            <!-- title row -->
+                            <div class="row">
+                                <div class="col-xs-12 invoice-header">
+                                    <h1>
+                                        <i class="fa fa-flask"></i> Invoice.
+                                        <small class="pull-right">Date: 11/03/2016</small>
+                                    </h1>
+                                </div>
+                                <!-- /.col -->
+                            </div>
+                            <!-- info row -->
+                            <div class="row invoice-info">
+                                <div class="col-sm-4 invoice-col">
+                                    From
+                                    <address>
+                                        <strong>Northwest Labs Pharmaceutical</strong>
+                                        <br>241 South Holden St
+                                        <br>Seattle, WA 98108
+                                        <br>Phone: 1 (206) 763-6252
+                                        <br>Email: postmaster@nwlabs1896.com
+                                    </address>
+                                </div>
+                                <!-- /.col -->
+                                <div class="col-sm-4 invoice-col">
+                                    To
+                                    <address>
+                                        <strong>Gilead Sciences</strong>
+                                        <br>333 Lakeside Drive
+                                        <br>Foster City, CA 94404
+                                        <br>Phone: (650) 574-3000
+                                        <br>Email: corporate_development@gilead.com
+                                    </address>
+                                </div>
+                                <!-- /.col -->
+                                <div class="col-sm-4 invoice-col">
+                                    <b>Invoice #283838</b>
+                                    <br>
+                                    <br>
+                                    <b>Order ID:</b> 2G3JJ8
+                                    <br>
+                                    <b>Payment Due:</b> 1/06/2017
+                                    <br>
+                                    <b>ClientID:</b> 5
+                                </div>
+                                <!-- /.col -->
+                            </div>
+                            <!-- /.row -->
+                            <!-- Table row -->
+                            <div class="row">
+                                <div class="col-xs-12 table">
+                                    <table class="table table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>Work Order</th>
+                                                <th>Tests</th>
+                                                <th>LT</th>
+                                                <th style="width: 59%">Description</th>
+                                                <th>Subtotal</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>124</td>
+                                                <td>BP, IS</td>
+                                                <td>283648</td>
+                                                <td>
+                                                    Quantity: 3; Date Arrived: 11/24/2016; Date Due: 12/16/2016
+                                                </td>
+                                                <td>$64.50</td>
+                                            </tr>
+                                            <tr>
+                                                <td>283</td>
+                                                <td>DS, PF</td>
+                                                <td>274926</td>
+                                                <td>Quantity: 5; Date Arrived: 11/25/2016; Date Due: 01/03/2017</td>
+                                                <td>$153.62</td>
+                                            </tr>
+                                            <tr>
+                                                <td>005</td>
+                                                <td>PS</td>
+                                                <td>202888</td>
+                                                <td>Quantity: 7; Date Arrived: 11/06/2016; Date Due: 12/20/2016</td>
+                                                <td>$299.45</td>
+                                            </tr>
+                                            <tr>
+                                                <td>321</td>
+                                                <td>PF</td>
+                                                <td>818171</td>
+                                                <td>Quantity: 1; Date Arrived: 09/28/2016; Date Due: 10/16/2016</td>
+                                                <td>$27.92</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <!-- /.col -->
+                            </div>
+                            <!-- /.row -->
+
+                            <div class="row">
+                                <!-- accepted payments column -->
+                                <div class="col-xs-6">
+                                    <p class="lead">Payment Methods:</p>
+                                    <img src="../Gentelella/Production/images/visa.png" alt="Visa">
+                                    <img src="../Gentelella/Production/images/mastercard.png" alt="Mastercard">
+                                    <img src="../Gentelella/Production/images/american-express.png" alt="American Express">
+                                    <img src="../Gentelella/Production/images/paypal.png" alt="Paypal">
+                                    <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
+                                        All credit card informatin will be kept secure and private.
+                                    </p>
+                                </div>
+                                <!-- /.col -->
+                                <div class="col-xs-6">
+                                    <p class="lead">Amount Due 1/06/2017</p>
+                                    <div class="table-responsive">
+                                        <table class="table">
+                                            <tbody>
+                                                <tr>
+                                                    <th style="width:50%">Subtotal:</th>
+                                                    <td>$545.49</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Tax (8.5%)</th>
+                                                    <td>$46.37</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Shipping:</th>
+                                                    <td>$5.80</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Total:</th>
+                                                    <td>$597.66</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <!-- /.col -->
+                            </div>
+                            <!-- /.row -->
+                            <!-- this row will not appear when printing -->
+                            <div class="row no-print">
+                                <div class="col-xs-12">
+                                    <button class="btn btn-default" onclick="window.print();"><i class="fa fa-print"></i> Print</button>
+                                    <button class="btn btn-success pull-right"><i class="fa fa-credit-card"></i> Submit Payment</button>
+                                    <button class="btn btn-primary pull-right" style="margin-right: 5px;"><i class="fa fa-download"></i> Generate PDF</button>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /page content -->
+
