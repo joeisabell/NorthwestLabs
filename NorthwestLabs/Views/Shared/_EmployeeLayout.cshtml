@@ -8,17 +8,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Northwest Labs</title>
     <!-- Bootstrap -->
-    <link href="../Gentelella/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="~/Gentelella/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
-    <link href="../Gentelella/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="~/Gentelella/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <!-- NProgress -->
-    <link href="../Gentelella/vendors/nprogress/nprogress.css" rel="stylesheet">
+    <link href="~/Gentelella/vendors/nprogress/nprogress.css" rel="stylesheet">
     <!-- bootstrap-progressbar -->
-    <link href="../Gentelella/vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
+    <link href="~/Gentelella/vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
     <!-- bootstrap-daterangepicker -->
-    <link href="../Gentelella/vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+    <link href="~/Gentelella/vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
     <!-- Custom Theme Style -->
-    <link href="../Gentelella/build/css/custom.min.css" rel="stylesheet">
+    <link href="~/Gentelella/build/css/custom.min.css" rel="stylesheet">
 </head>
 <body class="nav-md">
     <div class="container body">
@@ -26,13 +26,13 @@
             <div class="col-md-3 left_col">
                 <div class="left_col scroll-view">
                     <div class="navbar nav_title" style="border: 0;">
-                        <a href="../Home/Index" class="site_title"><i class="fa fa-flask"></i> <span>Northwest Labs</span></a>
+                        <a href="~/Home/Index" class="site_title"><i class="fa fa-flask"></i> <span>Northwest Labs</span></a>
                     </div>
                     <div class="clearfix"></div>
                     <!-- menu profile quick info -->
                     <div class="profile">
                         <div class="profile_pic">
-                            <img src="../Gentelella/production/images/img.jpg" alt="..." class="img-circle profile_img">
+                            <img src="~/Gentelella/production/images/img.jpg" alt="..." class="img-circle profile_img">
                         </div>
                         <div class="profile_info">
                             <span>Welcome,</span>
@@ -49,7 +49,7 @@
                                 <li>
                                     <a><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
                                     <ul class="nav child_menu">
-                                        <li><a href="../Dashboard/Employee">Dashboard</a></li>
+                                        <li><a href="~/Dashboard/Employee">Dashboard</a></li>
                                     </ul>
                                 </li>
                                 <li>
@@ -57,7 +57,7 @@
                                     <ul class="nav child_menu">
                                         <li><a href="#" style="color:dimgrey">Tests in Progress</a></li>
                                         <li><a href="#" style="color:dimgrey">Recently Completed Tests</a></li>
-                                        <li><a href="../Dashboard/WorkOrders">View Work Orders</a></li>
+                                        <li><a href="~/Dashboard/WorkOrders">View Work Orders</a></li>
                                     </ul>
                                 </li>
                                 <li>
@@ -72,8 +72,8 @@
                                 <li>
                                     <a><i class="fa fa-calendar"></i> Schedule <span class="fa fa-chevron-down"></span></a>
                                     <ul class="nav child_menu">
-                                        <li><a href="../Dashboard/Schedule">View Work Order Schedule</a></li>
-                                        <li><a href="../Dashboard/ScheduleTest">Schedule New Work Order</a></li>
+                                        <li><a href="~/Dashboard/Schedule">View Work Order Schedule</a></li>
+                                        <li><a href="~/Dashboard/ScheduleTest">Schedule New Work Order</a></li>
                                     </ul>
                                 </li>
                                 <li>
@@ -86,7 +86,7 @@
                                 <li>
                                     <a><i class="fa fa-info-circle"></i> Resources <span class="fa fa-chevron-down"></span></a>
                                     <ul class="nav child_menu">
-                                        <li><a href="../Dashboard/CreateQuote">Quote Estimator</a></li>
+                                        <li><a href="~/Dashboard/CreateQuote">Quote Estimator</a></li>
                                         <li><a href="#" style="color:dimgrey">FAQ</a></li>
                                     </ul>
                                 </li>
@@ -127,9 +127,9 @@
                                         <span class="fa fa-angle-down"></span>
                                     </a>
                                     <ul class="dropdown-menu dropdown-usermenu">
-                                        <li><a href="../Dashboard/Client"> Client </a></li>
-                                        <li><a href="../Dashboard/CEO"> CEO </a></li>
-                                        <li><a href="../Dashboard/Employee"> Employee </a></li>
+                                        <li><a href="~/Dashboard/Client"> Client </a></li>
+                                        <li><a href="~/Dashboard/CEO"> CEO </a></li>
+                                        <li><a href="~/Dashboard/Employee"> Employee </a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -137,7 +137,7 @@
                         <ul class="nav navbar-nav navbar-right">
                             <li class="">
                                 <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                                    <img src="../Gentelella/production/images/img.jpg" alt="">John Doe
+                                    <img src="~/Gentelella/production/images/img.jpg" alt="">John Doe
                                     <span class="fa fa-angle-down"></span>
                                 </a>
                                 <ul class="dropdown-menu dropdown-usermenu pull-right">
@@ -149,7 +149,7 @@
                                         </a>
                                     </li>
                                     <li><a href="javascript:;">Help</a></li>
-                                    <li><a href="../Home/Login"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
+                                    <li><a href="~/Home/Login"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
                                 </ul>
                             </li>
                             <li role="presentation" class="dropdown">
@@ -160,7 +160,7 @@
                                 <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
                                     <li>
                                         <a>
-                                            <span class="image"><img src="../Gentelella/production/images/img.jpg" alt="Profile Image" /></span>
+                                            <span class="image"><img src="~/Gentelella/production/images/img.jpg" alt="Profile Image" /></span>
                                             <span>
                                                 <span>John Smith</span>
                                                 <span class="time">4 hrs ago</span>
@@ -172,7 +172,7 @@
                                     </li>
                                     <li>
                                         <a>
-                                            <span class="image"><img src="../Gentelella/production/images/img.jpg" alt="Profile Image" /></span>
+                                            <span class="image"><img src="~/Gentelella/production/images/img.jpg" alt="Profile Image" /></span>
                                             <span>
                                                 <span>John Smith</span>
                                                 <span class="time">1 day ago</span>
@@ -184,7 +184,7 @@
                                     </li>
                                     <li>
                                         <a>
-                                            <span class="image"><img src="../Gentelella/production/images/img.jpg" alt="Profile Image" /></span>
+                                            <span class="image"><img src="~/Gentelella/production/images/img.jpg" alt="Profile Image" /></span>
                                             <span>
                                                 <span>John Smith</span>
                                                 <span class="time">4 days ago</span>
@@ -224,43 +224,43 @@
         </div>
     </div>
     <!-- jQuery -->
-    <script src="../Gentelella/vendors/jquery/dist/jquery.min.js"></script>
+    <script src="~/Gentelella/vendors/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap -->
-    <script src="../Gentelella/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="~/Gentelella/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
     <!-- FastClick -->
-    <script src="../Gentelella/vendors/fastclick/lib/fastclick.js"></script>
+    <script src="~/Gentelella/vendors/fastclick/lib/fastclick.js"></script>
     <!-- NProgress -->
-    <script src="../Gentelella/vendors/nprogress/nprogress.js"></script>
+    <script src="~/Gentelella/vendors/nprogress/nprogress.js"></script>
     <!-- Chart.js -->
-    <script src="../Gentelella/vendors/Chart.js/dist/Chart.min.js"></script>
+    <script src="~/Gentelella/vendors/Chart.js/dist/Chart.min.js"></script>
     <!-- jQuery Sparklines -->
-    <script src="../Gentelella/vendors/jquery-sparkline/dist/jquery.sparkline.min.js"></script>
+    <script src="~/Gentelella/vendors/jquery-sparkline/dist/jquery.sparkline.min.js"></script>
     <!-- morris.js -->
-    <script src="../Gentelella/vendors/raphael/raphael.min.js"></script>
-    <script src="../Gentelella/vendors/morris.js/morris.min.js"></script>
+    <script src="~/Gentelella/vendors/raphael/raphael.min.js"></script>
+    <script src="~/Gentelella/vendors/morris.js/morris.min.js"></script>
     <!-- gauge.js -->
-    <script src="../Gentelella/vendors/gauge.js/dist/gauge.min.js"></script>
+    <script src="~/Gentelella/vendors/gauge.js/dist/gauge.min.js"></script>
     <!-- bootstrap-progressbar -->
-    <script src="../Gentelella/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+    <script src="~/Gentelella/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
     <!-- Skycons -->
-    <script src="../Gentelella/vendors/skycons/skycons.js"></script>
+    <script src="~/Gentelella/vendors/skycons/skycons.js"></script>
     <!-- Flot -->
-    <script src="../Gentelella/vendors/Flot/jquery.flot.js"></script>
-    <script src="../Gentelella/vendors/Flot/jquery.flot.pie.js"></script>
-    <script src="../Gentelella/vendors/Flot/jquery.flot.time.js"></script>
-    <script src="../Gentelella/vendors/Flot/jquery.flot.stack.js"></script>
-    <script src="../Gentelella/vendors/Flot/jquery.flot.resize.js"></script>
+    <script src="~/Gentelella/vendors/Flot/jquery.flot.js"></script>
+    <script src="~/Gentelella/vendors/Flot/jquery.flot.pie.js"></script>
+    <script src="~/Gentelella/vendors/Flot/jquery.flot.time.js"></script>
+    <script src="~/Gentelella/vendors/Flot/jquery.flot.stack.js"></script>
+    <script src="~/Gentelella/vendors/Flot/jquery.flot.resize.js"></script>
     <!-- Flot plugins -->
-    <script src="../Gentelella/vendors/flot.orderbars/js/jquery.flot.orderBars.js"></script>
-    <script src="../Gentelella/vendors/flot-spline/js/jquery.flot.spline.min.js"></script>
-    <script src="../Gentelella/vendors/flot.curvedlines/curvedLines.js"></script>
+    <script src="~/Gentelella/vendors/flot.orderbars/js/jquery.flot.orderBars.js"></script>
+    <script src="~/Gentelella/vendors/flot-spline/js/jquery.flot.spline.min.js"></script>
+    <script src="~/Gentelella/vendors/flot.curvedlines/curvedLines.js"></script>
     <!-- DateJS -->
-    <script src="../Gentelella/vendors/DateJS/build/date.js"></script>
+    <script src="~/Gentelella/vendors/DateJS/build/date.js"></script>
     <!-- bootstrap-daterangepicker -->
-    <script src="../Gentelella/vendors/moment/min/moment.min.js"></script>
-    <script src="../Gentelella/vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
+    <script src="~/Gentelella/vendors/moment/min/moment.min.js"></script>
+    <script src="~/Gentelella/vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
     <!-- Custom Theme Scripts -->
-    <script src="../Gentelella/build/js/custom.min.js"></script>
+    <script src="~/Gentelella/build/js/custom.min.js"></script>
     <!-- Flot -->
     <script>
       $(document).ready(function() {
